@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 30% auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.google-button {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 480px;
+    height: 36px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.1);
+    padding: 15px 15px;
+}
+
+.buttons {
+    display: flex;
+    gap:15px
+}
+
+.button {
+    height: 30px;
+    color: #5f6368;
+    border-style: none;
+}
